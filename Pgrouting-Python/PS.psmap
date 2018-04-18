@@ -1,0 +1,112 @@
+# timestamp: 2018-03-24 10:58
+# location: Chennai
+# mapset: Block
+# page orientation: Portrait
+# g.region n=1443552.0 s=1442576.0 e=416851.0 w=415482.0 rows=976 cols=1369 
+
+maploc 0.500 1.273
+scale 1:7186
+border n
+
+paper
+    width 8.5
+    height 8.268
+    left 0.5
+    right 0.5
+    bottom 1.0
+    top 1.0
+    end
+scalebar s
+    where 1.499 7.311
+    length 350.0
+    units auto
+    height 0.1
+    segment 4
+    numbers 1
+    fontsize 10.0
+    background y
+    end
+eps 416803 1443675
+# north arrow
+    epsfile $GISBASE/etc/paint/decorations/n_arrow1_fancy.eps
+    scale 0.5
+    end
+mapinfo
+    where 3.570 6.812
+    font Helvetica
+    fontsize 10
+    color black
+    background none
+    border none
+    end
+text 416185 1443693 Solid Waste Collection - Trip0
+    font Times-Roman
+    fontsize 25.0
+    color black
+    hcolor none
+    border none
+    background none
+    ref center center
+    end
+vlines Roads@Block
+    type line or boundary
+    layer 1
+    masked n
+    color 0:0:0
+    width 1.0
+    style solid
+    linecap butt
+    label Roads
+    lpos 1
+    end
+vlines Trip_0@Block
+    type line or boundary
+    layer 1
+    masked n
+    color 231:25:40
+    width 3.9
+    style dashed
+    linecap butt
+    label Trip_0
+    lpos 2
+    end
+vareas nBlocks@Block
+    layer 1
+    masked n
+    color black
+    width 1.0
+    rgbcolumn Color
+    fcolor none
+    label Blocks
+    lpos 3
+    end
+labels Blocks
+end
+
+vlegend
+    where 6.523 6.574
+    font Helvetica
+    fontsize 10.0
+    width 0.4
+    cols 1
+    border none
+    end
+text 416768 1442349 VAASU DEVAN S\n 2014107051
+    font Helvetica
+    fontsize 10.0
+    color black
+    hcolor none
+    border none
+    background none
+    ref center center
+    end
+text 416173 1443556 
+    font Helvetica
+    fontsize 12
+    color black
+    hcolor none
+    border none
+    background none
+    ref center center
+    end
+end
