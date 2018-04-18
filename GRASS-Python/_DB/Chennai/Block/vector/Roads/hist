@@ -1,0 +1,3 @@
+COMMAND: v.in.ogr --overwrite input="SHP/Roads" output="Roads" min_area=0.0001 type="" snap=-1.0
+GISDBASE: _DB/
+LOCATION: Chennai MAPSET: Block USER: vaasu DATE: Sat Mar 24 11:54:00 2018

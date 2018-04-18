@@ -1,0 +1,7 @@
+COMMAND: v.in.ogr --overwrite input="SHP/nPoints" output="nPoints" min_area=0.0001 type="" snap=-1.0 key="id"
+GISDBASE: _DB/
+LOCATION: Chennai MAPSET: Block USER: vaasu DATE: Mon Mar 19 12:52:43 2018
+---------------------------------------------------------------------------------
+COMMAND: v.extract --overwrite input="nPoints" layer="1" type="point,line,boundary,centroid,area,face" where="Block IN ('Start', 'B3', 'C1', 'C3', 'D1', 'F1', 'F2', 'F4', 'H4', 'I4', 'J4', 'K1', 'K2', 'K3', 'K4', 'N2', 'N4', 'O2', 'O3', 'End')" output="Trip_2" new=-1
+GISDBASE: _DB/
+LOCATION: Chennai MAPSET: Block USER: vaasu DATE: Mon Mar 19 12:52:45 2018

@@ -1,0 +1,3 @@
+COMMAND: v.net.salesman -t input="TT" output="TT_Sales" center_cats="1-60" arc_layer="1" arc_type="line,boundary" node_layer="2" turn_layer="3" turn_cat_layer="4"
+GISDBASE: /home/vaasu/VaasuDevan/Projects/GIS-Projects/Layout_SW_Collection/GRASS-Python/_DB
+LOCATION: Chennai MAPSET: Block USER: vaasu DATE: Sat Mar 17 21:47:59 2018
