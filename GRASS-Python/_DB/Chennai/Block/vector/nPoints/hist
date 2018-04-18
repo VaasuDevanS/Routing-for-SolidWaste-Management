@@ -1,0 +1,3 @@
+COMMAND: v.in.ogr --overwrite input="SHP/nPoints" output="nPoints" min_area=0.0001 type="" snap=-1.0 key="id"
+GISDBASE: _DB/
+LOCATION: Chennai MAPSET: Block USER: vaasu DATE: Mon Mar 19 12:52:43 2018
